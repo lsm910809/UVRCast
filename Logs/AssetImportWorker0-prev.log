@@ -1,0 +1,494 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16160 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Samuel Lee/Documents/Developer/Unity Projects/UVRCast
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54903
+Successfully changed project path to: C:/Users/Samuel Lee/Documents/Developer/Unity Projects/UVRCast
+C:/Users/Samuel Lee/Documents/Developer/Unity Projects/UVRCast
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15780] Host "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 3516274525 [EditorId] 3516274525 [Version] 1048832 [Id] WindowsEditor(7,EliteDesk) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15780] Host "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 3516274525 [EditorId] 3516274525 [Version] 1048832 [Id] WindowsEditor(7,EliteDesk) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 86.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Samuel Lee/Documents/Developer/Unity Projects/UVRCast/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4017 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.022433 seconds.
+- Loaded All Assemblies, in  0.618 seconds
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 384 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.740 seconds
+Domain Reload Profiling: 1356ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (352ms)
+		LoadAssemblies (143ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (345ms)
+			TypeCache.Refresh (344ms)
+				TypeCache.ScanAssembly (327ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (741ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (683ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (524ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.616 seconds
+Refreshing native plugins compatible for Editor in 3.88 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.741 seconds
+Domain Reload Profiling: 3349ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (2339ms)
+		LoadAssemblies (2197ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (178ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (741ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (552ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (338ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 5.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5456 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (0.8 MB). Loaded Objects now: 5910.
+Memory consumption went from 216.3 MB to 215.5 MB.
+Total: 7.192100 ms (FindLiveObjects: 0.751200 ms CreateObjectMapping: 1.347400 ms MarkObjects: 4.408500 ms  DeleteObjects: 0.683600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 407061.055357 seconds.
+  path: Assets/3D Imports/VRM
+  artifactKey: Guid(ca90044f418a08740b74d0348f518f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM using Guid(ca90044f418a08740b74d0348f518f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7dc27d468644f4c56a9eff1c02be6e') in 0.002395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 84.797760 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)
+  artifactKey: Guid(de3b4a232e2e4944a993a282f8061632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer) using Guid(de3b4a232e2e4944a993a282f8061632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784e4aefdba2503052f83e60261ce657') in 0.000590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.050136 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).prefab
+  artifactKey: Guid(04c9d369a9eb8064bb23c39d85ead44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).prefab using Guid(04c9d369a9eb8064bb23c39d85ead44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b983dbe626ce3b06995a307a4c524a') in 1.259910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 343
+========================================================================
+Received Import Request.
+  Time since last request: 0.876278 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Textures/Thumbnail.png
+  artifactKey: Guid(4a79c7ba95f6e9945b385c4c610d2e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Textures/Thumbnail.png using Guid(4a79c7ba95f6e9945b385c4c610d2e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e949bd70c1e3ac810c872288fee085c') in 0.049893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.668951 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Meshes/Body (merged).baked.asset
+  artifactKey: Guid(dff2943a95e06bd4ebc6f21e23dd8b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Meshes/Body (merged).baked.asset using Guid(dff2943a95e06bd4ebc6f21e23dd8b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1dcbb7446f8dc9df06d9fe2f6d7291f') in 0.096862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Meshes/Hair001 (merged).baked.asset
+  artifactKey: Guid(7ecc6fd36de90c147b3250ff0216fd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Meshes/Hair001 (merged).baked.asset using Guid(7ecc6fd36de90c147b3250ff0216fd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cbdf03e0b1470e3894e4c0f37021c5') in 0.029718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.531356 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/BlendShape.asset
+  artifactKey: Guid(052dfb020f32178489be4ca014ad234e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/BlendShape.asset using Guid(052dfb020f32178489be4ca014ad234e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3ca412a852208b9e951ec52ee60ca1') in 0.008092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/BlendShape.Blink.asset
+  artifactKey: Guid(d1bf90ad327986d468aa338b69fccd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/BlendShape.Blink.asset using Guid(d1bf90ad327986d468aa338b69fccd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19a085ebbbb8de8ff1c0ab505fb7de1') in 0.001714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/BlendShape.I.asset
+  artifactKey: Guid(c3d463d5a138f064299cb6bb60dc8c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/BlendShape.I.asset using Guid(c3d463d5a138f064299cb6bb60dc8c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece623536fbc8b2f32683602a4115c03') in 0.001784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/LookRight.asset
+  artifactKey: Guid(361d19112aa49df4b98363992a87024b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/LookRight.asset using Guid(361d19112aa49df4b98363992a87024b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392f63d2ee5ede15d4f94051f409c411') in 0.002379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/BlendShape.Joy.asset
+  artifactKey: Guid(4809ae6726a96104b827ecabab3895a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/BlendShape.Joy.asset using Guid(4809ae6726a96104b827ecabab3895a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54edb20bdc5cf56e3bf7f60d5f03aaea') in 0.001501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/BlendShape.U.asset
+  artifactKey: Guid(03907e9d7567dd84892e82fd5b381138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/BlendShape.U.asset using Guid(03907e9d7567dd84892e82fd5b381138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2573892f2f230ba5ff5cafc9ddcab21d') in 0.002385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/BlendShape.O.asset
+  artifactKey: Guid(579eac684ae05f941975616ca87cf839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/BlendShape.O.asset using Guid(579eac684ae05f941975616ca87cf839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78670ece15c65c515879a75041a87e3') in 0.002193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/BlendShape.Angry.asset
+  artifactKey: Guid(08fbf3cbe75189d44be9883cfa6bb78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/BlendShape.Angry.asset using Guid(08fbf3cbe75189d44be9883cfa6bb78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bcb9dbd6cef2f55500b721faee0327') in 0.002280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/BlendShape.Sorrow.asset
+  artifactKey: Guid(bb972a43fd35bdd41b2144d369be8788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/BlendShape.Sorrow.asset using Guid(bb972a43fd35bdd41b2144d369be8788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1391e6cd056b3b4731c25b67d1fa4d6c') in 0.001571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/BlendShape.E.asset
+  artifactKey: Guid(6b8c79cbe6a87734e8bb519de12ff2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).BlendShapes/BlendShape.E.asset using Guid(6b8c79cbe6a87734e8bb519de12ff2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac7515668b8c312a982a558f38df9cf') in 0.001635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.117700 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).AvatarDescription/AvatarDescription.asset
+  artifactKey: Guid(3f0f68200c3e4274586ad7f50201ff15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).AvatarDescription/AvatarDescription.asset using Guid(3f0f68200c3e4274586ad7f50201ff15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01633829f88288aea62bc0df3082c2d1') in 0.001332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.485523 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Textures/_10.png
+  artifactKey: Guid(2885bc7eab3720241ae46e8d09c987a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Textures/_10.png using Guid(2885bc7eab3720241ae46e8d09c987a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1f2335f9c503eaa4f11f9d3ec8a431') in 0.034251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Textures/MatcapWarp_01.png
+  artifactKey: Guid(02209759ed56b3542a4d495a8a6213d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Textures/MatcapWarp_01.png using Guid(02209759ed56b3542a4d495a8a6213d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a971a8f62eb135390d14f96fd094e693') in 0.036011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.709054 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Textures/Shader_NoneNormal.normal.png
+  artifactKey: Guid(1babfffa46da99f43948bc4cd1e72653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Textures/Shader_NoneNormal.normal.png using Guid(1babfffa46da99f43948bc4cd1e72653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a12e8c68ec3c3b55755b536095effb9') in 0.039241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 213.121725 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_000_00_EyeHighlight_00_EYE (Instance).asset
+  artifactKey: Guid(b8bd0f330a055944ab528ada65d75c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_000_00_EyeHighlight_00_EYE (Instance).asset using Guid(b8bd0f330a055944ab528ada65d75c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e2ca85ccf2d70eeec6b6f20ea1a69e') in 1.537585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_000_00_FaceEyeline_00_FACE (Instance).asset
+  artifactKey: Guid(6c96c4d37209d4248aff549d093b62dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_000_00_FaceEyeline_00_FACE (Instance).asset using Guid(6c96c4d37209d4248aff549d093b62dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84949701831656329365ab985439d786') in 0.030949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_000_00_HairBack_00_HAIR (Instance).asset
+  artifactKey: Guid(3456b2eacaa7fcd40a83e0c2e44851d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_000_00_HairBack_00_HAIR (Instance).asset using Guid(3456b2eacaa7fcd40a83e0c2e44851d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b240eb0f56ec006b003e8216108454a8') in 0.028072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_010_01_Onepiece_00_CLOTH_01 (Instance).asset
+  artifactKey: Guid(126286d5a4dcc0b49a4265b024e76b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_010_01_Onepiece_00_CLOTH_01 (Instance).asset using Guid(126286d5a4dcc0b49a4265b024e76b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17bc68e02d7b1576f3795dcd601b7ee') in 0.031874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_000_00_Face_00_SKIN (Instance).asset
+  artifactKey: Guid(9d3ee7476302547479e68f1da09e9b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_000_00_Face_00_SKIN (Instance).asset using Guid(9d3ee7476302547479e68f1da09e9b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4fc47937ed98a5d62e4e5c55e4c19f') in 0.327414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_010_01_Onepiece_00_CLOTH_02 (Instance).asset
+  artifactKey: Guid(3d6530067f5aa954495e8ff97059b47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_010_01_Onepiece_00_CLOTH_02 (Instance).asset using Guid(3d6530067f5aa954495e8ff97059b47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefdb8008ccc34d4d3db4bca652bb79e') in 0.035671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_002_01_Shoes_01_CLOTH (Instance).asset
+  artifactKey: Guid(84b845b998f12694b988d3b5d7b42527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_002_01_Shoes_01_CLOTH (Instance).asset using Guid(84b845b998f12694b988d3b5d7b42527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bddea07106678617eebce693a905a90') in 0.034636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_001_02_Bottoms_01_CLOTH (Instance).asset
+  artifactKey: Guid(4235b2256524da341acd302e825a626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_001_02_Bottoms_01_CLOTH (Instance).asset using Guid(4235b2256524da341acd302e825a626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a258a151703dc8b6b36c899efca6f5') in 0.035121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_000_00_FaceBrow_00_FACE (Instance).asset
+  artifactKey: Guid(db9a1395cf968b64d977e48a7bca48f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_000_00_FaceBrow_00_FACE (Instance).asset using Guid(db9a1395cf968b64d977e48a7bca48f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31721efaf670122e1dd48d2a6cddf85') in 0.030801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_000_00_EyeWhite_00_EYE (Instance).asset
+  artifactKey: Guid(5d944f5d11f85b14f8c77d9c5785dd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Materials/N00_000_00_EyeWhite_00_EYE (Instance).asset using Guid(5d944f5d11f85b14f8c77d9c5785dd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2f64ba88cc04cf2b99323778abba45') in 1.182840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 52.134436 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Textures/_05.normal.png
+  artifactKey: Guid(bfc3af922b8ea4e4e9b2b9baff070e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Textures/_05.normal.png using Guid(bfc3af922b8ea4e4e9b2b9baff070e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172631afbd8d00e2e0fcd4cf764bd3c1') in 0.029285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Textures/_15.png
+  artifactKey: Guid(e02345fda9cb9ad43ad32f6aebed5c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Textures/_15.png using Guid(e02345fda9cb9ad43ad32f6aebed5c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14edb316aceadc26002913bd880b1335') in 0.025479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Textures/MatcapWarp_02.png
+  artifactKey: Guid(b8dc5886c24e74047821182db63f919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Textures/MatcapWarp_02.png using Guid(b8dc5886c24e74047821182db63f919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b20627650c15f61223fe576b2dbc4d') in 0.017824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Textures/N00_000_Hair_00_nml_01.normal.png
+  artifactKey: Guid(fecea827508c62e498910fc5abcf74fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Textures/N00_000_Hair_00_nml_01.normal.png using Guid(fecea827508c62e498910fc5abcf74fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b83740665e809a560ae14d7952defca') in 0.035977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Textures/_14.png
+  artifactKey: Guid(c187aade5059826428896ace4a6b9f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Imports/VRM/S.Aikawa (Summer)/S.Aikawa (Summer).Textures/_14.png using Guid(c187aade5059826428896ace4a6b9f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bdde28d80c16c271c42662384a9274c') in 0.025004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
